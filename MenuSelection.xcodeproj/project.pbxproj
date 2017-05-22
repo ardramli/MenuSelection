@@ -13,6 +13,7 @@
 		CE20A0E91E83A3AC00D672E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE20A0E71E83A3AC00D672E2 /* Main.storyboard */; };
 		CE20A0EB1E83A3AD00D672E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE20A0EA1E83A3AD00D672E2 /* Assets.xcassets */; };
 		CE20A0EE1E83A3AD00D672E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE20A0EC1E83A3AD00D672E2 /* LaunchScreen.storyboard */; };
+		CE20A0F71E83A91D00D672E2 /* foodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE20A0F61E83A91D00D672E2 /* foodCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		CE20A0EA1E83A3AD00D672E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE20A0ED1E83A3AD00D672E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE20A0EF1E83A3AD00D672E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE20A0F51E83A91D00D672E2 /* foodCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = foodCell.h; sourceTree = "<group>"; };
+		CE20A0F61E83A91D00D672E2 /* foodCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = foodCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				CE20A0E41E83A3AC00D672E2 /* ViewController.h */,
 				CE20A0E51E83A3AC00D672E2 /* ViewController.m */,
 				CE20A0E71E83A3AC00D672E2 /* Main.storyboard */,
+				CE20A0F51E83A91D00D672E2 /* foodCell.h */,
+				CE20A0F61E83A91D00D672E2 /* foodCell.m */,
 				CE20A0EA1E83A3AD00D672E2 /* Assets.xcassets */,
 				CE20A0EC1E83A3AD00D672E2 /* LaunchScreen.storyboard */,
 				CE20A0EF1E83A3AD00D672E2 /* Info.plist */,
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE20A0E61E83A3AC00D672E2 /* ViewController.m in Sources */,
+				CE20A0F71E83A91D00D672E2 /* foodCell.m in Sources */,
 				CE20A0E31E83A3AB00D672E2 /* AppDelegate.m in Sources */,
 				CE20A0E01E83A3AA00D672E2 /* main.m in Sources */,
 			);
